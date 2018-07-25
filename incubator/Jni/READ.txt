@@ -1,0 +1,24 @@
+模板替换列表：
+1.CMakeList		T0，项目名和库名
+2.toolchain-cross.cmake		T0，工具链 SET(TOOLCHAIN_DIR "/home/lroyd/my_ndk_toolchain/4.4-r9/bin")
+3.0
+c1.c			T0，包类名com/gundoom/ndk/Template(设定的时候是.需要转换/)
+				T1，包类函数 Java_com_gundoom_ndk_Template_classInitNative
+				T2，包类函数 Java_com_gundoom_ndk_Template_devEnable
+				T3，包类函数 Java_com_gundoom_ndk_Template_devDisable
+				T4，包类函数 Java_com_gundoom_ndk_Template_devContral
+
+3.1(目前没有)
+c2.c			T0，包类名com/gundoom/ndk/Template(设定的时候是.需要转换/)
+需要修改CMakeList
+
+
+3.2(目前没有)
+c++.cpp			T0，包类名com/gundoom/ndk/Template(设定的时候是.需要转换/)
+需要修改CMakeList
+
+
+4.Java文件
+Template.java	T0，文件名，类名
+				T1，包名
+				T2，so库名
